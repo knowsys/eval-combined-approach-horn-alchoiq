@@ -2,7 +2,7 @@ This folder contains the output logs of our prototype and of Konclude for the ex
 
 Each subfolder (*lubm*, *reactome*, *uniprot*, *uobm*) corresponds to the evaluated ontology partitions. It contains files with the experiment commands and output logs for Konclude reasoner (*-konclude.txt*) and for our prototype impementation that uses RDFox (*-rdfox.txt*). It also contains a file summarizing the time performance of loading and reasoning for each tool (*-summarized.txt*).  
 
-The input files used in the evaluation, as well as the RDFox reasoner version used in the implementation, are available at the following URL: [https://cloudstore.zih.tu-dresden.de/index.php/s/dXtg7iZd7SDbDaO.](https://zenodo.org/record/7746317#.ZBSgOXbMJik)
+The input files used in the evaluation, as well as the RDFox reasoner version used in the implementation, are available at the [following URL](https://zenodo.org/record/7746317#.ZBSgOXbMJik).
 
 [comment]: # (old URL.) 
 
