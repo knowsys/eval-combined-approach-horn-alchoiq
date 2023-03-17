@@ -1,0 +1,17 @@
+		Konclude			RDFox
+
+LUBM025
+ - Parsing:	23.1s				3.6s
+ - Reasoning:	17.2s = 9.3s + 6.1s + 1.8s	6.6s
+
+LUBM050
+ - Parsing:	49.3s				5.5s
+ - Reasoning:	36.3s = 19s + 13.5s + 3.8s	13.4s
+
+LUBM075
+ - Parsing:	73.5s				7.5s
+ - Reasoning:	61.1s = 30.3s + 22.2s + 8.6s	20.5s
+
+LUBM100
+ - Parsing:	101.6s				9.1s
+ - Reasoning:	100.1s = 41.4s + 45.7s + 13s	28s

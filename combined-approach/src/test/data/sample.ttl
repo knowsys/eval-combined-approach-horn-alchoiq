@@ -1,0 +1,210 @@
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#advisor
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#advisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#doctoralDegreeFrom
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#doctoralDegreeFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#headOf
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#headOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#mastersDegreeFrom
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#mastersDegreeFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#memberOf
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#publicationAuthor
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#publicationAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#subOrganizationOf
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#subOrganizationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#takesCourse
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#takesCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#teacherOf
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#teacherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#teachingAssistantOf
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#teachingAssistantOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#undergraduateDegreeFrom
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#undergraduateDegreeFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#worksFor
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#worksFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssistantProfessor
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssistantProfessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssociateProfessor
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#AssociateProfessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Course
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Department
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#FullProfessor
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#FullProfessor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#GraduateCourse
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#GraduateCourse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#GraduateStudent
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#GraduateStudent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Lecturer
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Lecturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Publication
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ResearchAssistant
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ResearchAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ResearchGroup
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ResearchGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#TeachingAssistant
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#TeachingAssistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#UndergraduateStudent
+
+<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#UndergraduateStudent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+###  http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#University
+
+### <http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.Department11.University1.edu
+
+<http://www.Department11.University1.edu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Department> ,
+                                                   <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+                                          
+                                          <http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#subOrganizationOf> <http://www.University1.edu> .
+
+
+
+###  http://www.University1.edu
+
+<http://www.University1.edu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#University> ,
+                                      <http://www.w3.org/2002/07/owl#NamedIndividual> .
+
+
+
+###  http://www.University103.edu
+
+<http://www.University103.edu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#University> ,
+                                        <http://www.w3.org/2002/07/owl#NamedIndividual> .
+
+
+
+
+###  Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net
+

@@ -1,0 +1,19 @@
+		Konclude			RDFox
+
+UOBM010
+ - Parsing:	20.6s				4.4s
+ - Reasoning:	21.8s = 7s + 13.4s + 1.4s	24.9s
+
+UOBM020
+ - Parsing:	42.2s				7.3s
+ - Reasoning:	47.9s = 16s + 28.9s + 3s	48.1s
+
+UOBM030
+ - Parsing:	67.7s				10.1s
+ - Reasoning:	80.2s = 25.5s + 46.5s + 8.2s	75.5s
+
+UOBM040
+ - Parsing:	92.2s				13.9s
+ - Reasoning:	119.5 = 34.3s + 73.6s + 11.6s	122.5s
+
+

@@ -1,0 +1,67 @@
+onto: D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\
+cores: 4
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Uniprot005
+.\Konclude.bat realization -i D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot005_hornALCHOIQ.owl -w 4 -v
+
+D:\phd\env\konclude\Konclude-v0.6.2-544-Windows-x64-VS05-Dynamic-Qt4.8.5>.\Konclude.bat realization -i D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot005_hornALCHOIQ.owl -w 4 -v
+{info} 06:30:21:550 >> Starting Konclude ...
+{info} 06:30:21:550 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 06:30:21:550 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 06:30:21:581 >> Starting realization processing for ontology 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot005_hornALCHOIQ.owl'.
+{info} 06:30:21:581 >> Initializing reasoner. Creating calculation context.
+{info} 06:30:21:581 >> Reasoner initialized with 4 processing unit(s).
+{info} 06:30:21:581 >> Trying stream-based OWL2/Functional ontology parsing for 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot005_hornALCHOIQ.owl'.
+{info} 06:30:21:581 >> Trying stream-based OWL2/XML ontology parsing for 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot005_hornALCHOIQ.owl'.
+{info} 06:31:09:956 >> Finished stream-based OWL2/XML ontology parsing for 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot005_hornALCHOIQ.owl'.
+{info} 06:31:10:409 >> Ontology parsed in 48828 ms.
+{info} 06:31:10:425 >> Preprocessing ontology 'http://konclude.com/test/kb'.
+{info} 06:31:43:862 >> Finished preprocessing in 33437 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:31:43:862 >> Precomputing ontology 'http://konclude.com/test/kb', expressiveness 'ALCHOIF'.
+{info} 06:32:05:347 >> Finished precomputing in 21485 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:32:05:347 >> Classifying ontology 'http://konclude.com/test/kb', expressiveness 'ALCHOIF'.
+{info} 06:32:05:347 >> Finished classification in 0 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:32:05:347 >> Realizing ontology 'http://konclude.com/test/kb', expressiveness 'ALCHOIF'.
+{info} 06:32:24:315 >> Finished realization in 18968 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:32:24:315 >> Query 'UnnamedRealizeQuery' processed in '0' ms.
+{info} 06:32:24:331 >> Total processing time: 122750 ms.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Uniprot010
+.\Konclude.bat realization -i D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot010_hornALCHOIQ.owl -w 4 -v
+
+D:\phd\env\konclude\Konclude-v0.6.2-544-Windows-x64-VS05-Dynamic-Qt4.8.5>.\Konclude.bat realization -i D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot010_hornALCHOIQ.owl -w 4 -v
+{info} 06:41:26:462 >> Starting Konclude ...
+{info} 06:41:26:462 >> Konclude - Uni Ulm Parallel Reasoner
+{info} 06:41:26:462 >> Reasoner for the SROIQV(D) Description Logic, 64-bit, Version v0.6.2-544 - f07c265 (Oct 26 2015)
+
+{info} 06:41:26:477 >> Starting realization processing for ontology 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot010_hornALCHOIQ.owl'.
+{info} 06:41:26:477 >> Initializing reasoner. Creating calculation context.
+{info} 06:41:26:477 >> Reasoner initialized with 4 processing unit(s).
+{info} 06:41:26:493 >> Trying stream-based OWL2/Functional ontology parsing for 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot010_hornALCHOIQ.owl'.
+{info} 06:41:26:493 >> Trying stream-based OWL2/XML ontology parsing for 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot010_hornALCHOIQ.owl'.
+{info} 06:43:04:258 >> Finished stream-based OWL2/XML ontology parsing for 'D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot010_hornALCHOIQ.owl'.
+{info} 06:43:05:133 >> Ontology parsed in 98640 ms.
+{info} 06:43:05:149 >> Preprocessing ontology 'http://konclude.com/test/kb'.
+{info} 06:44:15:602 >> Finished preprocessing in 70453 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:44:15:602 >> Precomputing ontology 'http://konclude.com/test/kb', expressiveness 'ALCHOIF'.
+{info} 06:45:40:196 >> Finished precomputing in 84594 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:45:40:196 >> Classifying ontology 'http://konclude.com/test/kb', expressiveness 'ALCHOIF'.
+{info} 06:45:40:243 >> Finished classification in 31 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:45:40:243 >> Realizing ontology 'http://konclude.com/test/kb', expressiveness 'ALCHOIF'.
+{info} 06:47:38:446 >> Finished realization in 118203 ms for ontology 'http://konclude.com/test/kb'.
+{info} 06:47:38:446 >> Query 'UnnamedRealizeQuery' processed in '0' ms.
+{info} 06:47:38:462 >> Total processing time: 371985 ms.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Uniprot015
+.\Konclude.bat realization -i D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot015_hornALCHOIQ.owl -w 4 -v
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Uniprot020
+.\Konclude.bat realization -i D:\phd\env\combined-approach\KR\ontos\merged_TboxABox\Uniprot\Uniprot020_hornALCHOIQ.owl -w 4 -v
+
+

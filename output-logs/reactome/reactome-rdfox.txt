@@ -1,0 +1,140 @@
+norm-paper_example.owl rdfox abox 4
+
+base: D:\phd\env\combined-approach\KR\mat_experiments_RDFox\
+jar: D:\phd\env\combined-approach\KR\mat_experiments_RDFox\materialize-windows-1.jar 
+ontos: d:\phd\env\combined-approach\KR\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\
+rdfox: D:\phd\env\combined-approach\KR\mat_experiments_RDFox\LUBM\LUBM025
+abox: d:\phd\env\combined-approach\KR\ontos\ABoxes\LUBM\AcyReasoning\LUBM025\
+cores: 4
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Reactome
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Reactome020
+java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome020" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome020" 4
+
+d:\phd\env\combined-approach\KR\mat_experiments_RDFox>java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome020" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome020" 4
+Evaluating ontology: ..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl; Time: 2018-05-21 08:51:00.648640
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (rsrc:guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+  - Creating program from ontology; Time: 2018-05-21 08:51:02.164271100
+    #Tbox axioms: 481
+    #TBox rules: 671
+    #TBox facts: 0
+    #initial active role conjunctions: 127
+    Done creating program; Time: 2018-05-21 08:51:02.226765300; creating program duration: 62 ms
+  - Writing program to files; Time: 2018-05-21 08:51:02.414271
+    Done writing; Time: 2018-05-21 08:51:02.664293; writing duration: 250 ms
+  - Importing program to store; Time: 2018-05-21 08:51:02.664293
+    Done importing to store; Time: 2018-05-21 08:51:05.383051400; import duration: 2719 ms
+  - Starting materialization; Time: 2018-05-21 08:51:05.383051400, initial #triples=2798871
+    - Iteration: 0; Time: 2018-05-21 08:51:12.695517200, #triples=7043327, #unnamedIndiv=0
+    - Iteration: 1; Time: 2018-05-21 08:51:28.367396400, #triples=7107101, #unnamedIndiv=1
+    - Iteration: 2; Time: 2018-05-21 08:51:44.898651200, #triples=7170877, #unnamedIndiv=2
+ - Final #triples=7170877
+    Done materializing; Time: 2018-05-21 08:52:01.648689900; materialization duration: 56219 ms
+ - #final active role conjunctions: 127
+ - #Introduced Unnamed Individuals: 2
+ - total loading   duration: 4812 ms
+ - materialization duration: 56219 ms
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Reactome040
+java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome040" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome040" 4
+
+d:\phd\env\combined-approach\KR\mat_experiments_RDFox>java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome040" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome040" 4
+Evaluating ontology: ..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl; Time: 2018-05-21 10:32:51.153845600
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (rsrc:guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+  - Creating program from ontology; Time: 2018-05-21 10:32:52.700724100
+    #Tbox axioms: 481
+    #TBox rules: 671
+    #TBox facts: 0
+    #initial active role conjunctions: 127
+    Done creating program; Time: 2018-05-21 10:32:52.763220300; creating program duration: 63 ms
+  - Writing program to files; Time: 2018-05-21 10:32:52.856992200
+    Done writing; Time: 2018-05-21 10:32:53.075718500; writing duration: 219 ms
+  - Importing program to store; Time: 2018-05-21 10:32:53.075718500
+    Done importing to store; Time: 2018-05-21 10:32:57.560096600; import duration: 4485 ms
+  - Starting materialization; Time: 2018-05-21 10:32:57.560096600, initial #triples=5066603
+    - Iteration: 0; Time: 2018-05-21 10:33:11.138253300, #triples=12792640, #unnamedIndiv=0
+    - Iteration: 1; Time: 2018-05-21 10:33:42.013264400, #triples=12910099, #unnamedIndiv=1
+    - Iteration: 2; Time: 2018-05-21 10:34:14.294490500, #triples=13027560, #unnamedIndiv=2
+ - Final #triples=13027560
+    Done materializing; Time: 2018-05-21 10:34:46.732032600; materialization duration: 109094 ms
+ - #final active role conjunctions: 127
+ - #Introduced Unnamed Individuals: 2
+ - total loading   duration: 6500 ms
+ - materialization duration: 109094 ms
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Reactome060
+java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome060" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome060" 4
+
+d:\phd\env\combined-approach\KR\mat_experiments_RDFox>java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome060" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome060" 4
+Evaluating ontology: ..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl; Time: 2018-05-21 10:39:08.100439400
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (rsrc:guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+  - Creating program from ontology; Time: 2018-05-21 10:39:09.600444300
+    #Tbox axioms: 481
+    #TBox rules: 671
+    #TBox facts: 0
+    #initial active role conjunctions: 127
+    Done creating program; Time: 2018-05-21 10:39:09.662942; creating program duration: 62 ms
+  - Writing program to files; Time: 2018-05-21 10:39:09.772317
+    Done writing; Time: 2018-05-21 10:39:10.116066100; writing duration: 344 ms
+  - Importing program to store; Time: 2018-05-21 10:39:10.116066100
+    Done importing to store; Time: 2018-05-21 10:39:16.428598700; import duration: 6297 ms
+  - Starting materialization; Time: 2018-05-21 10:39:16.428598700, initial #triples=6747134
+    - Iteration: 0; Time: 2018-05-21 10:39:31.928602600, #triples=17146304, #unnamedIndiv=0
+    - Iteration: 1; Time: 2018-05-21 10:40:11.037988900, #triples=17298634, #unnamedIndiv=1
+    - Iteration: 2; Time: 2018-05-21 10:40:51.538001500, #triples=17450966, #unnamedIndiv=2
+ - Final #triples=17450966
+    Done materializing; Time: 2018-05-21 10:41:32.428636300; materialization duration: 135906 ms
+ - #final active role conjunctions: 127
+ - #Introduced Unnamed Individuals: 2
+ - total loading   duration: 8453 ms
+ - materialization duration: 135906 ms
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Reactome080
+java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome080" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome080" 4
+
+d:\phd\env\combined-approach\KR\mat_experiments_RDFox>java -jar materialize-windows-1.jar "..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl" "Reactome\Reactome080" "..\ontos\ABoxes\Reactome\AcyReasoning\Reactome080" 4
+Evaluating ontology: ..\ontos\3_TBoxes_Normalized_minCard_Trimed_HornAlchoiq\normalized_minCard_manually_trimmed_Reactome.owl; Time: 2018-05-21 10:43:50.544463200
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (rsrc:guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+  - Creating program from ontology; Time: 2018-05-21 10:43:52.060088100
+    #Tbox axioms: 481
+    #TBox rules: 671
+    #TBox facts: 0
+    #initial active role conjunctions: 127
+    Done creating program; Time: 2018-05-21 10:43:52.107001800; creating program duration: 47 ms
+  - Writing program to files; Time: 2018-05-21 10:43:52.231961900
+    Done writing; Time: 2018-05-21 10:43:52.450721100; writing duration: 219 ms
+  - Importing program to store; Time: 2018-05-21 10:43:52.450721100
+    Done importing to store; Time: 2018-05-21 10:44:01.685089100; import duration: 9235 ms
+  - Starting materialization; Time: 2018-05-21 10:44:01.685089100, initial #triples=8060628
+    - Iteration: 0; Time: 2018-05-21 10:44:25.435094300, #triples=20714875, #unnamedIndiv=0
+    - Iteration: 1; Time: 2018-05-21 10:45:16.231985, #triples=20878024, #unnamedIndiv=1
+    - Iteration: 2; Time: 2018-05-21 10:46:08.560157300, #triples=21041175, #unnamedIndiv=2
+ - Final #triples=21041175
+    Done materializing; Time: 2018-05-21 10:47:02.216423; materialization duration: 180406 ms
+ - #final active role conjunctions: 127
+ - #Introduced Unnamed Individuals: 2
+ - total loading   duration: 11282 ms
+ - materialization duration: 180406 ms
+
+
+

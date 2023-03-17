@@ -1,0 +1,17 @@
+		Konclude			RDFox
+
+Uniprot005
+ - Parsing:	48.8s				8.3s
+ - Reasoning:	73.9s = 33.4s + 21.5s + 19s	152.2s
+
+Uniprot010
+ - Parsing:	98.6s				14.6s
+ - Reasoning:	273.3s = 70.5s + 84.6s + 118.2s	315.4s
+
+Uniprot015
+ - Parsing:	OOM				23.7s
+ - Reasoning:	OOM				507.2s
+
+Uniprot020
+ - Parsing:	OOM				34s
+ - Reasoning:	OOM				665.8s

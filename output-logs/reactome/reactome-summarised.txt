@@ -1,0 +1,17 @@
+		Konclude			RDFox
+
+Reactome020
+ - Parsing:	15.7s				4.8s
+ - Reasoning:	29.3s = 15.7s + 9.1s + 4.5s	56.2s
+
+Reactome040
+ - Parsing:	29.5s				6.5s
+ - Reasoning:	89.4s = 17.5s + 50.7s + 21.2s	109.1s
+
+Reactome060
+ - Parsing:	45s				8.5s
+ - Reasoning:	381s = 26.1s + 231.2 + 123.7s	135.9s
+
+Reactome080
+ - Parsing:	55,9s				11.3s
+ - Reasoning:	998.2s = 31.9s + 633s + 333.3s	180.4s
